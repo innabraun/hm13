@@ -1,0 +1,525 @@
+body{
+    background-image: url("img/Background.jpg");
+    background-repeat: no-repeat;
+    position:relative;
+    background-size: cover;
+    padding-bottom: 40px;
+    margin: 0;
+
+
+}
+
+
+.header{
+    height: 80px;
+    width: 100%;
+    position:absolute;
+    background: rgba(0, 0, 0, 0.4);
+
+}
+
+.opacity_layer{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+
+.logo_text{
+    font-family: "Ubuntu";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    text-transform: uppercase;
+    padding-left:79px ;
+    text-align: center;
+
+
+}
+
+.Logo_Text{
+    text-decoration: none;
+    color: white;
+}
+
+
+.Logo_Text:hover{
+    color: darkgreen;
+
+}
+
+
+
+.logo_img{
+
+    padding-left: 1150px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.vertical-line{
+    border-left: 4px solid whitesmoke;
+    height: 50px;
+    margin-left:60px;
+    margin-top:15px ;
+}
+
+
+.logIn{
+    position: absolute;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+
+
+.inside:hover{
+    color: darkgreen;
+}
+
+.inside2:hover{
+    color: darkgreen;
+}
+
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
+    padding-top: 170px;
+}
+
+
+.content-wrapper{
+    width: 650px;
+    height: 770px;
+    background-color: rgba(255,255,255,255);
+
+}
+
+
+.square {
+    width: 40px;
+    height: 40px;
+    background: #3CB878;
+    margin-top: 35px;
+}
+
+
+.form_header{
+    display: flex;
+
+}
+
+.form_header-left{
+    justify-content: left;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #434343;
+    margin-top: -36px;
+    margin-left: 80px;
+}
+
+.form_header-right{
+    justify-content: right;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #3CB878;
+    margin-top: -54px;
+    margin-left: 493px;
+
+}
+
+.form_header-right:hover{
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.g-sign-in-button {
+
+    display: inline-block;
+    background-color:#DF4A32;
+    margin-left: 81px;
+    margin-right: 52px;
+}
+
+.g-sign-in-button:hover {
+    cursor: pointer;
+}
+
+.g-sign-in-button .content-wrapper {
+    height: 100%;
+    width: 100%;
+    background: #DF4A32;
+}
+
+.g-sign-in-button .img {
+
+    background: #DF4A32;
+}
+
+.g-sign-in-button .logo-wrapper {
+    padding: 12px;
+    width: 48px;
+    height: 100%;
+    display: inline-block;
+}
+
+.g-sign-in-button .text-container {
+    font-family: "Ubuntu";
+    font-weight: 400;
+
+    font-size: 16px;
+    line-height: 48px;
+    vertical-align: top;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    background: #DF4A32;
+    color: #ffffff;
+}
+
+.g-sign-in-button .g-sign-in-button_second:hover{
+    fill: #AB1F09;
+
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.g-sign-in-button_second{
+
+    display: inline-block;
+
+    background-color:#305DB8;
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+
+.g-sign-in-button_second:hover {
+    cursor: pointer;
+
+}
+
+.g-sign-in-button_second .content-wrapper_second {
+    height: 100%;
+    width: 100%;
+    background: #305DB8;
+}
+
+.g-sign-in-button_second .img2{
+    background: #305DB8;
+}
+
+.g-sign-in-button_second .logo-wrapper_second {
+    padding: 8px;
+    width: 48px;
+    height: 100%;
+    display: inline-block;
+
+}
+
+.g-sign-in-button_second .text-container_second {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+    vertical-align: top;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    background: #305DB8;
+    color: #ffffff;
+}
+
+.g-sign-in-button_second:hover{
+    background-color: #305DB8;
+
+}
+
+.text-container_second:hover{
+    background-color: #305DB8;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-style:normal ;
+    font-size:14px ;
+    line-height: 14px;
+    color: #848484;
+}
+
+
+.line_left{
+    width: 45%;
+    color: #F2F2F2;;
+}
+
+.line_right{
+    width: 45%;
+    color:#F2F2F2; ;
+
+}
+
+.line_center{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.main_form{
+    display: flex;
+    justify-content: center;
+    width: 324px;
+    height: 44px;
+    margin-top: 20px;
+    margin-left: 160px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-style:normal ;
+    font-size:16px ;
+    line-height: 16px;
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 4px;
+
+
+}
+.main_form:hover{
+    display: flex;
+    justify-content: center;
+    width: 324px;
+    height: 46px;
+    margin-top: 20px;
+    margin-left: 160px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-style:normal ;
+    font-size:16px ;
+    line-height: 16px;
+    padding:10px;
+    border:0;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+    border-radius: 4px;
+
+}
+
+.first_form, .second_form, .third_form, .four_form {
+
+    display: flex;
+    justify-content: center;
+    width: 324px;
+    height: 44px;
+    margin-top: 20px;
+    margin-left: 160px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-style:normal ;
+    font-size:16px ;
+    line-height: 16px;
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 4px;
+
+}
+.first_form:hover {
+    display: flex;
+    justify-content: center;
+    width: 324px;
+    height: 46px;
+    margin-top: 20px;
+    margin-left: 160px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-style:normal ;
+    font-size:16px ;
+    line-height: 16px;
+    padding:10px;
+    border:0;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+    border-radius: 4px;
+
+}
+.second_form:hover{
+    display: flex;
+    justify-content: center;
+    width: 324px;
+    height: 46px;
+    margin-top: 20px;
+    margin-left: 160px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-style:normal ;
+    font-size:16px ;
+    line-height: 16px;
+    padding:10px;
+    border:0;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+    border-radius: 4px;
+
+}
+.third_form:hover{
+    display: flex;
+    justify-content: center;
+    width: 324px;
+    height: 46px;
+    margin-top: 20px;
+    margin-left: 160px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-style:normal ;
+    font-size:16px ;
+    line-height: 16px;
+    padding:10px;
+    border:0;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+    border-radius: 4px;
+}
+
+.four_form:hover{
+    display: flex;
+    justify-content: center;
+    width: 324px;
+    height: 46px;
+    margin-top: 20px;
+    margin-left: 160px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-style:normal ;
+    font-size:16px ;
+    line-height: 16px;
+    padding:10px;
+    border:0;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+    border-radius: 4px;
+}
+
+.text_span{
+    color:  #3CB878;
+
+}
+
+.text_span:hover{
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+label{
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+input[type=checkbox]+label{
+    display: block;
+    margin:0.2em;
+    margin-top: 17px;
+    margin-left:145px;
+}
+
+input[type=checkbox]{
+    display: none;
+
+}
+input[type=checkbox]+label:before{
+    content:"\2714";
+    border:rgba(0, 0, 0, 0.0001);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+    border-radius: 0.2em;
+    width: 18px;
+    display: inline-block;
+    height: 18px;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right: 0.2em;
+    vertical-align: bottom;
+    color: transparent;
+    margin-top: 17px;
+    position: center;
+    margin-left:34px;
+
+}
+
+input[type=checkbox]:checked+label:before{
+
+    background-color:#F2F2F2;
+    color: #3CB878;
+    border-color:  rgba(0, 0, 0, 0.0001);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+
+}
+
+.button_down{
+    margin-top:60px;
+    margin-left:121px;
+
+}
+
+.button_down a{
+    text-decoration: none;
+    font-family: "Ubuntu";
+    font-size:18px;
+    background-color: rgba(60, 184, 120, 0.8);
+    padding: 25px 150px;
+    color: #F2F2F2;
+    border-radius: 4px;
+}
+
+.button_down a:hover{
+    background-color: darkgreen;
+}
+
+
+.button_change{
+    margin-top:60px;
+    margin-left:121px;
+
+}
+
+.button_change a{
+    text-decoration: none;
+    font-family: "Ubuntu";
+    font-size:18px;
+    background-color: rgba(60, 184, 120, 0.8);
+    padding: 25px 155px;
+    color: #F2F2F2;
+    border-radius: 4px;
+}
+
+.button_change a:hover{
+    background-color: darkgreen;
+}
